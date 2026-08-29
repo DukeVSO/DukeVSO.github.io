@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Victor Omotayo</title>
+<meta name="description" content="Personal and client projects by Victor Omotayo, including NaijaRated, a business ranking platform for Lagos, Nigeria.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230A0E12'/%3E%3Ctext x='32' y='43' font-family='monospace' font-size='30' font-weight='700' fill='%23F5A623' text-anchor='middle'%3EV%3C/text%3E%3C/svg%3E">
+<meta property="og:title" content="Projects — Victor Omotayo">
+<meta property="og:description" content="Personal and client projects by Victor Omotayo, including NaijaRated, a business ranking platform for Lagos, Nigeria.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Projects — Victor Omotayo">
+<meta name="twitter:description" content="Personal and client projects by Victor Omotayo, including NaijaRated, a business ranking platform for Lagos, Nigeria.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  /* Page-specific additions — kept minimal, reuses existing design tokens from style.css */
+  .project{
+    border-top: 1px solid var(--line);
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .project:first-child{ border-top: none; padding-top: 0; }
+  .project-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .project-title{
+    font-family: var(--mono);
+    font-size: 19px;
+    font-weight: 600;
+    color: #EDF1F5;
+  }
+  .project-status{
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--cyan);
+    border: 1px solid var(--line);
+    padding: 4px 10px;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+  .project-desc{
+    max-width: 640px;
+    font-size: 14.5px;
+    color: #B7C1CB;
+  }
+  .tech-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .tech-tag{
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--muted);
+    border: 1px solid var(--line);
+    background: var(--panel);
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  .project-links{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 4px;
+  }
+</style>
+</head>
+<body>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="ok">● SYSTEMS: OPERATIONAL</span>
+    <span>LOCATION: GLOBAL REMOTE</span>
+    <span class="warn">OPEN TO: VISA SPONSORSHIP GLOBALLY</span>
+    <span>UPTIME: 3+ YRS IN THE FIELD</span>
+    <span class="ok">● SYSTEMS: OPERATIONAL</span>
+    <span>LOCATION: GLOBAL REMOTE</span>
+    <span class="warn">OPEN TO: VISA SPONSORSHIP GLOBALLY</span>
+    <span>UPTIME: 3+ YRS IN THE FIELD</span>
+  </div>
+</div>
+
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <a class="nav-name" href="index.html">VICTOR OMOTAYO</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="certifications.html">Certifications</a>
+      <a href="education.html">Education</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <div class="page-head">
+    <a class="back-link" href="index.html">← Back home</a>
+    <div class="page-eyebrow">05 · BUILT PROJECTS</div>
+    <h1 class="page-title">Projects</h1>
+    <p class="page-sub">Independent builds, made end-to-end — from problem definition and data research through to a working, deployed product.</p>
+  </div>
+
+  <section>
+
+    <div class="project">
+      <div class="project-head">
+        <span class="project-title">NaijaRated</span>
+        <span class="project-status">● LIVE</span>
+      </div>
+      <p class="project-desc">
+        A business-ranking platform for Lagos, Nigeria — built to solve a real problem: Nigerian commerce runs heavily on word-of-mouth, and there's no trustworthy, centralized way to compare local businesses. NaijaRated lets people rate businesses across quality, reliability, communication, and value, with every review checked before it goes live. Seeded with 100+ real, sourced Lagos businesses across 9 categories.
+      </p>
+      <div class="tech-row">
+        <span class="tech-tag">React</span>
+        <span class="tech-tag">JavaScript</span>
+        <span class="tech-tag">HTML/CSS</span>
+        <span class="tech-tag">Data research &amp; cleaning</span>
+        <span class="tech-tag">GitHub Pages</span>
+      </div>
+      <div class="project-links">
+        <a class="btn btn-primary" href="https://dukevso.github.io/Naija-Rated/" target="_blank" rel="noopener">View live demo →</a>
+        <a class="btn btn-ghost" href="https://github.com/dukevso/Naija-Rated" target="_blank" rel="noopener">View code on GitHub</a>
+      </div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer>VICTOR OMOTAYO · LAGOS, NIGERIA · BUILT 2026</footer>
+
+</body>
+</html>
